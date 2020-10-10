@@ -1,0 +1,28 @@
+{
+  "name": "acme/example",
+  "description": "Your first addon for Statamic 3",
+  "autoload": {
+    "psr-4": {
+      "Acme\\Example\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "Your Name"
+    }
+  ],
+  "support": {
+    "email": "your@email.com"
+  },
+  "extra": {
+    "statamic": {
+      "name": "Example",
+      "description": "Example addon"
+    },
+    "laravel": {
+      "providers": [
+          "Acme\\Example\\ServiceProvider"
+      ]
+    }
+  }
+}
